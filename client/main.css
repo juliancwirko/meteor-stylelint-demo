@@ -1,0 +1,10 @@
+
+/*based on stylelint config - expected:*/
+/*- unexpected function scale (x2) because of transform autoprefixed entry*/
+/*- double quotes*/
+.main-container {
+    color: red;
+    transform: scale(1);
+    text-align: 'center';
+}
+

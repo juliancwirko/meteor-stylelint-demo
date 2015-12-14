@@ -1,0 +1,15 @@
+
+// based on stylelint config - expected:
+// - double quotes
+// - [a-z]+ naming
+// Unexpected id selector
+.TEST {
+    color: green;
+    span {
+        text-align: 'right';
+    }
+}
+
+#my-id {
+    background: #000;
+}
