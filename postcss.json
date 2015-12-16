@@ -3,10 +3,10 @@
         "autoprefixer": {"browsers": ["last 2 versions"]},
         "stylelint": {
             "rules": {
-                "string-quotes": [2, "double"],
-                "selector-no-id": 2,
-                "function-blacklist": [2, ["scale"]],
-                "selector-class-pattern": [2, "[a-z]+"]
+                "string-quotes": "double",
+                "selector-no-id": true,
+                "function-blacklist": "scale",
+                "selector-class-pattern": "[a-z]+"
             }
         },
         "postcss-reporter": {"clearMessages": true}
